@@ -1,0 +1,84 @@
+header{
+    margin-bottom: 3%;
+}
+.tamano{
+    width: 100%;
+}
+#photo{
+    width: 20%;
+    margin-left: 8%;
+}
+#div1{
+    padding-top: 3%;
+    padding-bottom: 4%;
+    border-width: 5%;
+    border-top: 3px #C89FD7AD solid;
+    border-bottom: 3px #C89FD7AD solid;
+}
+
+@media only screen and (max-width: 450px) {
+
+#div2{
+    /* PARA QUE LOS ELEMENTOS ESTEN EN UNA */
+    display: inline-block;
+
+    /* BORDES */
+    border: 2px #C89FD7AD solid;
+
+    /* TAMANO DEL DIV */
+    width: 50%;
+    height: 2%;
+
+    /* PARA QUE EL TEXTO NO DESBORDE */
+    overflow: hidden;
+    text-overflow: clip;
+
+    /* TAMANO DE FUENTE */
+    font-size: 2%;
+
+    /* POSICIONAMIENTO FUERA */
+    margin-left: 5%;
+
+    /* POSICIONAMIENTO DENTRO */
+    padding-top: 3%;
+    text-align: center;
+}
+p{
+    color: #b88fc7ad;
+    margin-top: 0.77%;
+    font-family: sans-serif;
+    /* height: 18%; */
+}}
+@media only screen and (max-width: 600px) {
+#div2{
+    /* PARA QUE LOS ELEMENTOS ESTEN EN UNA */
+    display: inline-block;
+
+    /* BORDES */
+    border: 2px #C89FD7AD solid;
+
+    /* TAMANO DEL DIV */
+    width: 50%;
+    height: 100px;
+
+    /* PARA QUE EL TEXTO NO DESBORDE */
+    overflow: hidden;
+    text-overflow: clip;
+
+    /* TAMANO DE FUENTE */
+    font-size: 70%;
+
+    /* POSICIONAMIENTO FUERA */
+    margin-left: 5%;
+
+    /* POSICIONAMIENTO DENTRO */
+    text-align: center;
+    padding-top: 4%;
+    
+}
+p{
+    color: #b88fc7ad;
+    margin-top: 0.77%;
+    font-family: sans-serif;
+    /* height: 18%; */
+}}
